@@ -1,8 +1,10 @@
+package Juego;
+
 import java.util.InputMismatchException;
 import java.util.Scanner;
 public class Operaciones {
     static Scanner scanner = new Scanner(System.in);
-    public static void jugar(){
+    public void jugar(){
         int x = 21;
         int num;
         int numIA;
@@ -22,7 +24,7 @@ public class Operaciones {
         }
     }
 
-    public static int pedirNumero(int max) {
+    public int pedirNumero(int max) {
         while (true) {
             try {
                 System.out.print("\n¿Cuántos palos tachas? (1-4): ");
@@ -38,7 +40,7 @@ public class Operaciones {
         }
     }
 
-    public static void imprimir(int x) {
+    public void imprimir(int x) {
         System.out.print("Palos restantes (" + x + "): ");
         for (int i = 0; i < x; i++) {
             System.out.print("|");
@@ -46,7 +48,7 @@ public class Operaciones {
         System.out.println();
     }
 
-    public static int pedirIA(int num) {
+    public int pedirIA(int num) {
         return 5 - num;
     }
 }
