@@ -1,8 +1,10 @@
 import Juego.Operaciones;
+import Menu.Menu;
 
 public class Main {
 
     public static void main(String[] args) {
-        Operaciones.jugar();
+        Menu menu = new Menu();
+        menu.MenuJuego();
     }
 }
