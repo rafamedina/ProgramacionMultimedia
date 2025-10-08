@@ -34,6 +34,7 @@ public class Menu {
                     op.jugar();
                     break;
                 case 3:
+                    numero=3;
                     break;
                 default:
                     System.out.println("Numero no válido");

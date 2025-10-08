@@ -19,7 +19,7 @@ public class Operaciones {
                 System.out.println("\n¡Perdiste!");
                 break;
             }
-            numIA = pedirIA();
+            numIA = pedirIA(x);
             System.out.println("\nLa IA tachó " + numIA + " palos.");
             x -= numIA;
             if (x == 0) {
@@ -39,17 +39,17 @@ public class Operaciones {
             imprimir(x);
             num = pedirNumero(x);
             x -= num;
-            if (x == 0) {
-                if(turno){
-                    System.out.println("Ha perdido el jugador 1\n");
-                    break;
-                }else{
-                    System.out.println("Ha perdido el jugador 2\n");
-                    break;
-                }
-            }
             turno = !turno;
+            }
+        if (x == 0) {
+            if(turno){
+                System.out.println("Ha perdido el jugador 1\n");
+            }else{
+                System.out.println("Ha perdido el jugador 2\n");
+            }
+
         }
+
 
     }
 
@@ -77,10 +77,27 @@ public class Operaciones {
         System.out.println();
     }
 
-    public int pedirIA() {
-        Random rand = new Random();
-        return rand.nextInt(4) + 1;
+    public int pedirIA(int x) {
+        while(true){
+            if (x > 4) {
+                Random rand = new Random();
+                return rand.nextInt(4) + 1;
+            } else {
+                switch (x) {
+                    case 1, 2:
+                        return 1;
+
+                    case 3:
+                        return 2;
+
+                    case 4:
+                        return 3;
+
+                }
+        }
+        }
     }
+
 
     public void controles(){
         System.out.println("Si le das a jugar tienes en la primera opcion jugar jugador vs jugador, en la segunda vs la IA y si aprietas el 3 volveras atras en los menus, siempre que pulses la R dentro de un juego lo reinicias");
