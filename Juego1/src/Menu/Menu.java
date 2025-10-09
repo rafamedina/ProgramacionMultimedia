@@ -23,7 +23,8 @@ public class Menu {
         }
     }
     public void submenu(){
-        while(numero != 3){
+        int numero2 = 0;
+        while(numero2 != 3){
             int eleccion2 = util.subMenu();
             switch(eleccion2){
 
@@ -34,7 +35,7 @@ public class Menu {
                     op.jugar();
                     break;
                 case 3:
-                    numero=3;
+                    numero2=3;
                     break;
                 default:
                     System.out.println("Numero no válido");

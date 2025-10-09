@@ -36,7 +36,7 @@ public class Utils {
     public int subMenu(){
         System.out.println("1. Jugador vs Jugador");
         System.out.println("2. Jugador vs IA");
-        System.out.println("3. Volver");
+        System.out.println("3. volver");
         return eleccion();
     }
 
