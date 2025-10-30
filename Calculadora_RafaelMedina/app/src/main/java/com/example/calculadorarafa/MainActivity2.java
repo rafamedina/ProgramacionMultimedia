@@ -37,15 +37,25 @@ public class MainActivity2 extends FragmentActivity implements ToolbarFragment.T
 
     }
 
+    //@Override
+//    public void onButtonClick(int size, String text) {
+//
+//       TextFragment textFragment = (TextFragment) getSupportFragmentManager().findFragmentById(R.id.ViewFContainer);
+//
+//        if(textFragment != null){
+//            textFragment.ChangeTextProperties(size, text);
+//        }
+//
+//
+//    }
+
     @Override
-    public void onButtonClick(int size, String text) {
+    public void onButtonClick(int size) {
+    TextFragment imagefragment = (TextFragment) getSupportFragmentManager().findFragmentById(R.id.ViewFContainer);
 
-       TextFragment textFragment = (TextFragment) getSupportFragmentManager().findFragmentById(R.id.ViewFContainer);
-
-        if(textFragment != null){
-            textFragment.ChangeTextProperties(size, text);
+        if(imagefragment != null){
+            imagefragment.ChangeImageAlpha(size);
         }
-
 
     }
 }

@@ -11,6 +11,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.SeekBar;
 
 
@@ -18,11 +19,13 @@ public class ToolbarFragment extends Fragment implements SeekBar.OnSeekBarChange
 
     private int seekvalue;
 
-    private EditText editText;
+//    private EditText editText;
+    private ImageView image;
 
 
     public  interface ToolbarListener{
-        public void onButtonClick(int size, String text);
+       // public void onButtonClick(int size, String text);
+        public void onButtonClick(int size);
     }
 
     ToolbarListener activityCallBack;
@@ -37,7 +40,7 @@ public class ToolbarFragment extends Fragment implements SeekBar.OnSeekBarChange
         // Inflate the layout for this fragment
         View v =  inflater.inflate(R.layout.fragment_toolbar, container, false);
 
-        editText = v.findViewById(R.id.FragmentEditText);
+//        editText = v.findViewById(R.id.FragmentEditText);
 
         SeekBar seekBar = v.findViewById(R.id.seekBar);
 
@@ -73,9 +76,9 @@ public class ToolbarFragment extends Fragment implements SeekBar.OnSeekBarChange
 
     public void ButtonClicked(View v){
 
-        activityCallBack.onButtonClick(seekvalue,editText.getText().toString());
+       // activityCallBack.onButtonClick(seekvalue,editText.getText().toString());
 
-
+        activityCallBack.onButtonClick(seekvalue);
 
     }
 
