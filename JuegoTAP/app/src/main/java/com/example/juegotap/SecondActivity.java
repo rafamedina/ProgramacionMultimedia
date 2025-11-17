@@ -111,13 +111,9 @@ public class SecondActivity extends AppCompatActivity {
     private void guardarPuntuajeEnFirebase() {
         String valor = Nombreusuario + ";" + password + ";" + Usuariopuntuaje;
 
-        myRef.child(idUsuario).setValue(valor)
-                .addOnSuccessListener(unused -> {
-                    Log.d("FIREBASE", "Puntuaje actualizado");
-                    cargarRanking();
-                })
-                .addOnFailureListener(e ->
-                        Log.e("FIREBASE", "Error actualizando puntos", e));
+        myRef.child(idUsuario).setValue(valor);
+        cargarRanking();
+
     }
 
 
