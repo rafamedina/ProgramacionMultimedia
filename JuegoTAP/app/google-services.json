@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "117399474480",
+    "project_id": "juegotap-1ad8c",
+    "storage_bucket": "juegotap-1ad8c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:117399474480:android:34d48e12fadc45d4ceb8f5",
+        "android_client_info": {
+          "package_name": "com.example.juegotap"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrHNXfpnP2Ph0jJi0Lpco56nTJ0NAT1Eo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
