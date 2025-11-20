@@ -1,4 +1,4 @@
-package com.example.juegotap;
+package com.example.juegotapvalidacionrafaelmedina;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -205,7 +205,7 @@ public class MainActivity extends AppCompatActivity {
                                     startActivity(i);
                                 }else {
                                     Toast.makeText(MainActivity.this, "El usuario no esta registrado o la contraseña es erronea", Toast.LENGTH_SHORT).show();
-                                }
+                            }
                             }
                         }
                     }

@@ -1,4 +1,4 @@
-package com.example.juegotap;
+package com.example.juegotapvalidacionrafaelmedina;
 
 // Import necessary Android and Firebase libraries
 
@@ -16,7 +16,6 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-import com.example.juegotap.R;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
