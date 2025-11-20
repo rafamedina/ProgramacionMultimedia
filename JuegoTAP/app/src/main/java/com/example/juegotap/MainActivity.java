@@ -5,6 +5,8 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -15,6 +17,7 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 import com.google.android.material.textfield.TextInputEditText;
+import com.google.android.material.textfield.TextInputLayout;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -41,6 +44,8 @@ public class MainActivity extends AppCompatActivity {
     // Variable to store the user's score
     int puntuaje;
 
+    EditText editTex;
+    ImageView imagen;
     // Intent to start the next activity
     Intent i;
 
@@ -71,6 +76,9 @@ public class MainActivity extends AppCompatActivity {
         // Initialize buttons by finding them in the layout
         btnIniciar = findViewById(R.id.btnIniciarSesion);
         btnRegistrar = findViewById(R.id.btnCrearCuenta);
+
+         editTex = findViewById(R.id.editTextMain);
+         imagen = findViewById(R.id.imageViewMain);
 
         // Set a click listener for the register button
         btnRegistrar.setOnClickListener(new View.OnClickListener() {
@@ -150,12 +158,24 @@ public class MainActivity extends AppCompatActivity {
                 });
             }
         });
-
-        // Initialize the intent for the SecondActivity
         i = new Intent(MainActivity.this, SecondActivity.class);
+//        imagen.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                if(editTex != null){
+//                    String valorEditText = editTex.getText().toString().trim();
+//                    i.putExtra("editText",valorEditText);
+//
+//                    startActivity(i);
+//                }
+//
+//            }
+//        });
+
+
 
         // Set a click listener for the login button
-        btnIniciar.setOnClickListener(new View.OnClickListener() {
+        imagen.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 // Clear previous values
@@ -201,11 +221,16 @@ public class MainActivity extends AppCompatActivity {
                                     i.putExtra("password", passworddb);
                                     i.putExtra("Puntuaje", puntuaje);
 
+                                    if(editTex != null){
+                                        String valorEditText = editTex.getText().toString().trim();
+                                        i.putExtra("editText",valorEditText);
+                                    }
+
                                     // Start the next activity
                                     startActivity(i);
                                 }else {
                                     Toast.makeText(MainActivity.this, "El usuario no esta registrado o la contraseña es erronea", Toast.LENGTH_SHORT).show();
-                                }
+                            }
                             }
                         }
                     }
@@ -215,9 +240,19 @@ public class MainActivity extends AppCompatActivity {
                         // Log a warning if reading is cancelled or fails
                         Log.w("FIREBASE", "Error leyendo", databaseError.toException());
                     }
+
+
                 });
+
+
             }
+
         });
+
+
+
     }
+
+
 }
 

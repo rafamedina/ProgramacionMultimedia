@@ -1,22 +1,22 @@
 package com.example.juegotap;
 
 // Import necessary Android and Firebase libraries
-
 import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Switch; // This import is unused
 import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
+import androidx.annotation.NonNull; // This import is unused
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-import com.example.juegotap.R;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -24,9 +24,10 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
+import java.util.Collections; // This import is unused
 import java.util.Comparator;
 
-import POJO.Usuario;
+import POJO.Usuario; // Import the User Plain Old Java Object
 
 // Second activity class, inherits from AppCompatActivity
 public class SecondActivity extends AppCompatActivity {
@@ -48,6 +49,9 @@ public class SecondActivity extends AppCompatActivity {
     FirebaseDatabase database = FirebaseDatabase.getInstance("https://juegotap-1ad8c-default-rtdb.europe-west1.firebasedatabase.app/");
     // Get reference to the "usuarios" node in the database
     DatabaseReference myRef = database.getReference("usuarios");
+
+    TextView TvEditText;
+    String MensajeTvEt;
 
     // Static list to hold user objects for ranking
     static ArrayList<Usuario> Listausuarios = new ArrayList<>();
@@ -77,15 +81,21 @@ public class SecondActivity extends AppCompatActivity {
         txtR1 = findViewById(R.id.textViewRank1);
         txtR2 = findViewById(R.id.textViewRank2);
         txtR3 = findViewById(R.id.textViewRank3);
+        TvEditText = findViewById(R.id.textViewEt);
 
         // Initialize the main score button
         btnClick = this.findViewById(R.id.btnScore);
 
         // Retrieve data passed from MainActivity via the intent
         Nombreusuario = getIntent().getStringExtra("Usuario");
+
         idUsuario = getIntent().getStringExtra("id");
         password = getIntent().getStringExtra("password");
         Usuariopuntuaje = getIntent().getIntExtra("Puntuaje", 0); // Default to 0 if not found
+
+        MensajeTvEt = getIntent().getStringExtra("editText");
+
+        TvEditText.setText(MensajeTvEt);
 
         // Create a new Usuario object with the retrieved data
         usuario = new Usuario(idUsuario,Nombreusuario, Usuariopuntuaje);
