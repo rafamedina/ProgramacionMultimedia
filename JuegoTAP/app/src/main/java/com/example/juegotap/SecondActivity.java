@@ -50,8 +50,6 @@ public class SecondActivity extends AppCompatActivity {
     // Get reference to the "usuarios" node in the database
     DatabaseReference myRef = database.getReference("usuarios");
 
-    TextView TvEditText;
-    String MensajeTvEt;
 
     // Static list to hold user objects for ranking
     static ArrayList<Usuario> Listausuarios = new ArrayList<>();
@@ -81,7 +79,6 @@ public class SecondActivity extends AppCompatActivity {
         txtR1 = findViewById(R.id.textViewRank1);
         txtR2 = findViewById(R.id.textViewRank2);
         txtR3 = findViewById(R.id.textViewRank3);
-        TvEditText = findViewById(R.id.textViewEt);
 
         // Initialize the main score button
         btnClick = this.findViewById(R.id.btnScore);
@@ -92,10 +89,6 @@ public class SecondActivity extends AppCompatActivity {
         idUsuario = getIntent().getStringExtra("id");
         password = getIntent().getStringExtra("password");
         Usuariopuntuaje = getIntent().getIntExtra("Puntuaje", 0); // Default to 0 if not found
-
-        MensajeTvEt = getIntent().getStringExtra("editText");
-
-        TvEditText.setText(MensajeTvEt);
 
         // Create a new Usuario object with the retrieved data
         usuario = new Usuario(idUsuario,Nombreusuario, Usuariopuntuaje);

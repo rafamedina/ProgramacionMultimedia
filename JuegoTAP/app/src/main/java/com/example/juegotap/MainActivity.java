@@ -44,8 +44,6 @@ public class MainActivity extends AppCompatActivity {
     // Variable to store the user's score
     int puntuaje;
 
-    EditText editTex;
-    ImageView imagen;
     // Intent to start the next activity
     Intent i;
 
@@ -77,8 +75,6 @@ public class MainActivity extends AppCompatActivity {
         btnIniciar = findViewById(R.id.btnIniciarSesion);
         btnRegistrar = findViewById(R.id.btnCrearCuenta);
 
-         editTex = findViewById(R.id.editTextMain);
-         imagen = findViewById(R.id.imageViewMain);
 
         // Set a click listener for the register button
         btnRegistrar.setOnClickListener(new View.OnClickListener() {
@@ -175,7 +171,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         // Set a click listener for the login button
-        imagen.setOnClickListener(new View.OnClickListener() {
+        btnIniciar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 // Clear previous values
@@ -220,11 +216,6 @@ public class MainActivity extends AppCompatActivity {
                                     i.putExtra("id", id);
                                     i.putExtra("password", passworddb);
                                     i.putExtra("Puntuaje", puntuaje);
-
-                                    if(editTex != null){
-                                        String valorEditText = editTex.getText().toString().trim();
-                                        i.putExtra("editText",valorEditText);
-                                    }
 
                                     // Start the next activity
                                     startActivity(i);
