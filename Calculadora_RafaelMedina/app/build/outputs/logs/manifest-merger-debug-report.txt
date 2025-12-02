@@ -1,0 +1,292 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Repositorio\ProgramacionMultimedia\Calculadora_RafaelMedina\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from C:\Repositorio\ProgramacionMultimedia\Calculadora_RafaelMedina\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from C:\Repositorio\ProgramacionMultimedia\Calculadora_RafaelMedina\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from C:\Repositorio\ProgramacionMultimedia\Calculadora_RafaelMedina\app\src\main\AndroidManifest.xml:2:1-34:12
+MERGED from [com.google.android.material:material:1.13.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\5b9beb46fa58dceb48fda7e0334e37d9\transformed\material-1.13.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\544bcfaea4fb9b1d7ae1b36d7c9a6802\transformed\constraintlayout-2.2.1\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.appcompat:appcompat-resources:1.7.1] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\3183580cc152245590a4cbd5a5094a4b\transformed\appcompat-resources-1.7.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat:1.7.1] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\28c89cba31391679bd8c87b7817185d3\transformed\appcompat-1.7.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\976a88aba62ce3330f22f9cbf4baf4c6\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.8.9] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\17e9c8a7d9e51dbb442793761b76ca17\transformed\fragment-1.8.9\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity:1.11.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\64912cebb4fb3df73944d53096536be1\transformed\activity-1.11.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.graphics:graphics-shapes-android:1.0.1] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\3f8d3bd654f1d2902dad58f305f505b8\transformed\graphics-shapes-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\b15ac51c8b4bb16684bd6f460974e2ce\transformed\savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\5dd94d2a37fd230e898d2b1656e45370\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\cf99da122b73d504f912a61ae5641415\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\069b38185f8904b4b99d4b102d346ec2\transformed\emoji2-1.3.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\745bb7c99c8c927d6174f6b4634fb2a4\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\ecd040a92d31ac0b90d48fe90a497fa3\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\10dad8ee37f943d28e54f05c8cd4b6ac\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\045c961d1f2ea65ac6ae6ce15b8bd35f\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\cba2a9b9be7d3398b0600b820a0fbdfa\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\d3f45cd9eab51e7a4ee966f0f9387298\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.13.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\504f7fb54bf220f462908a18d202fec9\transformed\core-ktx-1.13.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\2798dc75fd9502b5a5f77907439ab627\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\ee82fb6541c583b1087e8f2165d8146e\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\9b55dca4ffc755fafcf480b11dce69c3\transformed\transition-1.5.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.1.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\df75e801514ba30ac63a82da834646a2\transformed\dynamicanimation-1.1.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\1a7282ed185c1818986b6a7942fc5d4d\transformed\recyclerview-1.2.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\bb68ecc82e4e546d5c2078b965050464\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\c79ad9e8221a30db08c39c1ea3279a5d\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\bb9ee871164cf28218a184b75918e06c\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\a98f3f721bd9646c4bb8aa8356fc02c7\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.13.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\8946750709cda0725f4e4e99d40ab87f\transformed\core-1.13.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\ba4324cd6edeaa72bd2d9f15f3c5171b\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\47c94407fe7efe65dfc66470b806a93d\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\f24db21454c9cb85cdee8cac71e507c1\transformed\profileinstaller-1.4.0\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\550cc7ce35b5d5684afc1ab7afe33666\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\e55aa2a9a500275be4ab18a1f05fbbe9\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\af6eaadd060ffb9eaadac5338c5fbf35\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\78d56687f306f9e11583666b0dbf8000\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\f3b608446ad256faf68646bc794d8896\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-viewtree:1.0.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\72d6bdb776a438306d09664dab76be13\transformed\core-viewtree-1.0.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\d424df7e02b2761cd201c81218fe7b51\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:2:1-7:12
+	package
+		INJECTED from C:\Repositorio\ProgramacionMultimedia\Calculadora_RafaelMedina\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Repositorio\ProgramacionMultimedia\Calculadora_RafaelMedina\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Repositorio\ProgramacionMultimedia\Calculadora_RafaelMedina\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\Repositorio\ProgramacionMultimedia\Calculadora_RafaelMedina\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Repositorio\ProgramacionMultimedia\Calculadora_RafaelMedina\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from C:\Repositorio\ProgramacionMultimedia\Calculadora_RafaelMedina\app\src\main\AndroidManifest.xml:5:5-32:19
+INJECTED from C:\Repositorio\ProgramacionMultimedia\Calculadora_RafaelMedina\app\src\main\AndroidManifest.xml:5:5-32:19
+MERGED from [com.google.android.material:material:1.13.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\5b9beb46fa58dceb48fda7e0334e37d9\transformed\material-1.13.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.13.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\5b9beb46fa58dceb48fda7e0334e37d9\transformed\material-1.13.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\544bcfaea4fb9b1d7ae1b36d7c9a6802\transformed\constraintlayout-2.2.1\AndroidManifest.xml:7:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\544bcfaea4fb9b1d7ae1b36d7c9a6802\transformed\constraintlayout-2.2.1\AndroidManifest.xml:7:5-20
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\069b38185f8904b4b99d4b102d346ec2\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\069b38185f8904b4b99d4b102d346ec2\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\ecd040a92d31ac0b90d48fe90a497fa3\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\ecd040a92d31ac0b90d48fe90a497fa3\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.13.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\8946750709cda0725f4e4e99d40ab87f\transformed\core-1.13.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\8946750709cda0725f4e4e99d40ab87f\transformed\core-1.13.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\f24db21454c9cb85cdee8cac71e507c1\transformed\profileinstaller-1.4.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\f24db21454c9cb85cdee8cac71e507c1\transformed\profileinstaller-1.4.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\550cc7ce35b5d5684afc1ab7afe33666\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\550cc7ce35b5d5684afc1ab7afe33666\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\78d56687f306f9e11583666b0dbf8000\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\78d56687f306f9e11583666b0dbf8000\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+	android:extractNativeLibs
+		INJECTED from C:\Repositorio\ProgramacionMultimedia\Calculadora_RafaelMedina\app\src\main\AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.13.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\8946750709cda0725f4e4e99d40ab87f\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from C:\Repositorio\ProgramacionMultimedia\Calculadora_RafaelMedina\app\src\main\AndroidManifest.xml:12:9-35
+	android:label
+		ADDED from C:\Repositorio\ProgramacionMultimedia\Calculadora_RafaelMedina\app\src\main\AndroidManifest.xml:10:9-41
+	android:fullBackupContent
+		ADDED from C:\Repositorio\ProgramacionMultimedia\Calculadora_RafaelMedina\app\src\main\AndroidManifest.xml:8:9-54
+	android:roundIcon
+		ADDED from C:\Repositorio\ProgramacionMultimedia\Calculadora_RafaelMedina\app\src\main\AndroidManifest.xml:11:9-54
+	android:icon
+		ADDED from C:\Repositorio\ProgramacionMultimedia\Calculadora_RafaelMedina\app\src\main\AndroidManifest.xml:9:9-43
+	android:allowBackup
+		ADDED from C:\Repositorio\ProgramacionMultimedia\Calculadora_RafaelMedina\app\src\main\AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from C:\Repositorio\ProgramacionMultimedia\Calculadora_RafaelMedina\app\src\main\AndroidManifest.xml:13:9-53
+	android:dataExtractionRules
+		ADDED from C:\Repositorio\ProgramacionMultimedia\Calculadora_RafaelMedina\app\src\main\AndroidManifest.xml:7:9-65
+activity#com.example.calculadorarafa.MainActivity2
+ADDED from C:\Repositorio\ProgramacionMultimedia\Calculadora_RafaelMedina\app\src\main\AndroidManifest.xml:14:9-27:24
+	android:exported
+		ADDED from C:\Repositorio\ProgramacionMultimedia\Calculadora_RafaelMedina\app\src\main\AndroidManifest.xml:16:13-36
+	android:name
+		ADDED from C:\Repositorio\ProgramacionMultimedia\Calculadora_RafaelMedina\app\src\main\AndroidManifest.xml:15:13-42
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Repositorio\ProgramacionMultimedia\Calculadora_RafaelMedina\app\src\main\AndroidManifest.xml:17:13-21:29
+action#android.intent.action.MAIN
+ADDED from C:\Repositorio\ProgramacionMultimedia\Calculadora_RafaelMedina\app\src\main\AndroidManifest.xml:18:17-69
+	android:name
+		ADDED from C:\Repositorio\ProgramacionMultimedia\Calculadora_RafaelMedina\app\src\main\AndroidManifest.xml:18:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Repositorio\ProgramacionMultimedia\Calculadora_RafaelMedina\app\src\main\AndroidManifest.xml:20:17-77
+	android:name
+		ADDED from C:\Repositorio\ProgramacionMultimedia\Calculadora_RafaelMedina\app\src\main\AndroidManifest.xml:20:27-74
+activity#com.example.calculadorarafa.MainActivity
+ADDED from C:\Repositorio\ProgramacionMultimedia\Calculadora_RafaelMedina\app\src\main\AndroidManifest.xml:28:9-31:20
+	android:exported
+		ADDED from C:\Repositorio\ProgramacionMultimedia\Calculadora_RafaelMedina\app\src\main\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from C:\Repositorio\ProgramacionMultimedia\Calculadora_RafaelMedina\app\src\main\AndroidManifest.xml:29:13-41
+uses-sdk
+INJECTED from C:\Repositorio\ProgramacionMultimedia\Calculadora_RafaelMedina\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Repositorio\ProgramacionMultimedia\Calculadora_RafaelMedina\app\src\main\AndroidManifest.xml
+INJECTED from C:\Repositorio\ProgramacionMultimedia\Calculadora_RafaelMedina\app\src\main\AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.13.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\5b9beb46fa58dceb48fda7e0334e37d9\transformed\material-1.13.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.13.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\5b9beb46fa58dceb48fda7e0334e37d9\transformed\material-1.13.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\544bcfaea4fb9b1d7ae1b36d7c9a6802\transformed\constraintlayout-2.2.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\544bcfaea4fb9b1d7ae1b36d7c9a6802\transformed\constraintlayout-2.2.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.1] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\3183580cc152245590a4cbd5a5094a4b\transformed\appcompat-resources-1.7.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.1] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\3183580cc152245590a4cbd5a5094a4b\transformed\appcompat-resources-1.7.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.1] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\28c89cba31391679bd8c87b7817185d3\transformed\appcompat-1.7.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.1] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\28c89cba31391679bd8c87b7817185d3\transformed\appcompat-1.7.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\976a88aba62ce3330f22f9cbf4baf4c6\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\976a88aba62ce3330f22f9cbf4baf4c6\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.8.9] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\17e9c8a7d9e51dbb442793761b76ca17\transformed\fragment-1.8.9\AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment:1.8.9] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\17e9c8a7d9e51dbb442793761b76ca17\transformed\fragment-1.8.9\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity:1.11.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\64912cebb4fb3df73944d53096536be1\transformed\activity-1.11.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.11.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\64912cebb4fb3df73944d53096536be1\transformed\activity-1.11.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.graphics:graphics-shapes-android:1.0.1] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\3f8d3bd654f1d2902dad58f305f505b8\transformed\graphics-shapes-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.graphics:graphics-shapes-android:1.0.1] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\3f8d3bd654f1d2902dad58f305f505b8\transformed\graphics-shapes-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\b15ac51c8b4bb16684bd6f460974e2ce\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\b15ac51c8b4bb16684bd6f460974e2ce\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\5dd94d2a37fd230e898d2b1656e45370\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\5dd94d2a37fd230e898d2b1656e45370\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\cf99da122b73d504f912a61ae5641415\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\cf99da122b73d504f912a61ae5641415\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\069b38185f8904b4b99d4b102d346ec2\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\069b38185f8904b4b99d4b102d346ec2\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\745bb7c99c8c927d6174f6b4634fb2a4\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\745bb7c99c8c927d6174f6b4634fb2a4\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\ecd040a92d31ac0b90d48fe90a497fa3\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\ecd040a92d31ac0b90d48fe90a497fa3\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\10dad8ee37f943d28e54f05c8cd4b6ac\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\10dad8ee37f943d28e54f05c8cd4b6ac\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\045c961d1f2ea65ac6ae6ce15b8bd35f\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\045c961d1f2ea65ac6ae6ce15b8bd35f\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\cba2a9b9be7d3398b0600b820a0fbdfa\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\cba2a9b9be7d3398b0600b820a0fbdfa\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\d3f45cd9eab51e7a4ee966f0f9387298\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\d3f45cd9eab51e7a4ee966f0f9387298\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.13.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\504f7fb54bf220f462908a18d202fec9\transformed\core-ktx-1.13.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\504f7fb54bf220f462908a18d202fec9\transformed\core-ktx-1.13.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\2798dc75fd9502b5a5f77907439ab627\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\2798dc75fd9502b5a5f77907439ab627\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\ee82fb6541c583b1087e8f2165d8146e\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\ee82fb6541c583b1087e8f2165d8146e\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\9b55dca4ffc755fafcf480b11dce69c3\transformed\transition-1.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\9b55dca4ffc755fafcf480b11dce69c3\transformed\transition-1.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.1.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\df75e801514ba30ac63a82da834646a2\transformed\dynamicanimation-1.1.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.1.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\df75e801514ba30ac63a82da834646a2\transformed\dynamicanimation-1.1.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\1a7282ed185c1818986b6a7942fc5d4d\transformed\recyclerview-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\1a7282ed185c1818986b6a7942fc5d4d\transformed\recyclerview-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\bb68ecc82e4e546d5c2078b965050464\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\bb68ecc82e4e546d5c2078b965050464\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\c79ad9e8221a30db08c39c1ea3279a5d\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\c79ad9e8221a30db08c39c1ea3279a5d\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\bb9ee871164cf28218a184b75918e06c\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\bb9ee871164cf28218a184b75918e06c\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\a98f3f721bd9646c4bb8aa8356fc02c7\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\a98f3f721bd9646c4bb8aa8356fc02c7\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.13.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\8946750709cda0725f4e4e99d40ab87f\transformed\core-1.13.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\8946750709cda0725f4e4e99d40ab87f\transformed\core-1.13.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\ba4324cd6edeaa72bd2d9f15f3c5171b\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\ba4324cd6edeaa72bd2d9f15f3c5171b\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\47c94407fe7efe65dfc66470b806a93d\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\47c94407fe7efe65dfc66470b806a93d\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\f24db21454c9cb85cdee8cac71e507c1\transformed\profileinstaller-1.4.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\f24db21454c9cb85cdee8cac71e507c1\transformed\profileinstaller-1.4.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\550cc7ce35b5d5684afc1ab7afe33666\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\550cc7ce35b5d5684afc1ab7afe33666\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\e55aa2a9a500275be4ab18a1f05fbbe9\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\e55aa2a9a500275be4ab18a1f05fbbe9\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\af6eaadd060ffb9eaadac5338c5fbf35\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\af6eaadd060ffb9eaadac5338c5fbf35\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\78d56687f306f9e11583666b0dbf8000\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\78d56687f306f9e11583666b0dbf8000\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\f3b608446ad256faf68646bc794d8896\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\f3b608446ad256faf68646bc794d8896\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-viewtree:1.0.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\72d6bdb776a438306d09664dab76be13\transformed\core-viewtree-1.0.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-viewtree:1.0.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\72d6bdb776a438306d09664dab76be13\transformed\core-viewtree-1.0.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\d424df7e02b2761cd201c81218fe7b51\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\d424df7e02b2761cd201c81218fe7b51\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
+	android:targetSdkVersion
+		INJECTED from C:\Repositorio\ProgramacionMultimedia\Calculadora_RafaelMedina\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Repositorio\ProgramacionMultimedia\Calculadora_RafaelMedina\app\src\main\AndroidManifest.xml
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\069b38185f8904b4b99d4b102d346ec2\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\ecd040a92d31ac0b90d48fe90a497fa3\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\ecd040a92d31ac0b90d48fe90a497fa3\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\f24db21454c9cb85cdee8cac71e507c1\transformed\profileinstaller-1.4.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\f24db21454c9cb85cdee8cac71e507c1\transformed\profileinstaller-1.4.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\550cc7ce35b5d5684afc1ab7afe33666\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\550cc7ce35b5d5684afc1ab7afe33666\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\069b38185f8904b4b99d4b102d346ec2\transformed\emoji2-1.3.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\069b38185f8904b4b99d4b102d346ec2\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\069b38185f8904b4b99d4b102d346ec2\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\069b38185f8904b4b99d4b102d346ec2\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\069b38185f8904b4b99d4b102d346ec2\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\069b38185f8904b4b99d4b102d346ec2\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\069b38185f8904b4b99d4b102d346ec2\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\ecd040a92d31ac0b90d48fe90a497fa3\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\ecd040a92d31ac0b90d48fe90a497fa3\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\ecd040a92d31ac0b90d48fe90a497fa3\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\8946750709cda0725f4e4e99d40ab87f\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\8946750709cda0725f4e4e99d40ab87f\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\8946750709cda0725f4e4e99d40ab87f\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+permission#com.example.calculadorarafa.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\8946750709cda0725f4e4e99d40ab87f\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\8946750709cda0725f4e4e99d40ab87f\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\8946750709cda0725f4e4e99d40ab87f\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\8946750709cda0725f4e4e99d40ab87f\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\8946750709cda0725f4e4e99d40ab87f\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+uses-permission#com.example.calculadorarafa.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\8946750709cda0725f4e4e99d40ab87f\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\8946750709cda0725f4e4e99d40ab87f\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\f24db21454c9cb85cdee8cac71e507c1\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\f24db21454c9cb85cdee8cac71e507c1\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\f24db21454c9cb85cdee8cac71e507c1\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\f24db21454c9cb85cdee8cac71e507c1\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\f24db21454c9cb85cdee8cac71e507c1\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\f24db21454c9cb85cdee8cac71e507c1\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\f24db21454c9cb85cdee8cac71e507c1\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\f24db21454c9cb85cdee8cac71e507c1\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\f24db21454c9cb85cdee8cac71e507c1\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\f24db21454c9cb85cdee8cac71e507c1\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\f24db21454c9cb85cdee8cac71e507c1\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\f24db21454c9cb85cdee8cac71e507c1\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\f24db21454c9cb85cdee8cac71e507c1\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\f24db21454c9cb85cdee8cac71e507c1\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\f24db21454c9cb85cdee8cac71e507c1\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\f24db21454c9cb85cdee8cac71e507c1\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\f24db21454c9cb85cdee8cac71e507c1\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\f24db21454c9cb85cdee8cac71e507c1\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\f24db21454c9cb85cdee8cac71e507c1\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\f24db21454c9cb85cdee8cac71e507c1\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\f24db21454c9cb85cdee8cac71e507c1\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92

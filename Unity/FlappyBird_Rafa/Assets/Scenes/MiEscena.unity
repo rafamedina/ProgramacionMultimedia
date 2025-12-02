@@ -242,7 +242,7 @@ GameObject:
   - component: {fileID: 133501151}
   - component: {fileID: 133501150}
   m_Layer: 0
-  m_Name: Cielo
+  m_Name: Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1095,7 +1095,7 @@ GameObject:
   - component: {fileID: 787411555}
   - component: {fileID: 787411554}
   m_Layer: 0
-  m_Name: Suelo
+  m_Name: Sky
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1962,8 +1962,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b8f97750ee20024da20069d7ab79932, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gravityForce: 4
-  jumpForce: 17
+  gravityForce: 750
+  jumpForce: 15
   rb_body: {fileID: 0}
 --- !u!54 &1312496306
 Rigidbody:
@@ -1990,7 +1990,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 122
   m_CollisionDetection: 1
 --- !u!135 &1312496307
 SphereCollider:

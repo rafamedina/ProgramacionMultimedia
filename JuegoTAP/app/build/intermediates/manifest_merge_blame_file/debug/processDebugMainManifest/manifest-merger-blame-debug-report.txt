@@ -1,0 +1,271 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.juegotap"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="36" />
+10
+11    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+12    <!-- <uses-sdk android:minSdkVersion="21"/> -->
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->[com.google.firebase:firebase-database:22.0.1] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\dc3ce32e4d57e4fb469312e1f9efd378\transformed\firebase-database-22.0.1\AndroidManifest.xml:22:5-79
+13-->[com.google.firebase:firebase-database:22.0.1] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\dc3ce32e4d57e4fb469312e1f9efd378\transformed\firebase-database-22.0.1\AndroidManifest.xml:22:22-76
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->[com.google.firebase:firebase-database:22.0.1] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\dc3ce32e4d57e4fb469312e1f9efd378\transformed\firebase-database-22.0.1\AndroidManifest.xml:23:5-67
+14-->[com.google.firebase:firebase-database:22.0.1] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\dc3ce32e4d57e4fb469312e1f9efd378\transformed\firebase-database-22.0.1\AndroidManifest.xml:23:22-64
+15    <uses-permission android:name="android.permission.WAKE_LOCK" />
+15-->[com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\f4bb5cb085f2ad7017d82b049fab3eb5\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:24:5-68
+15-->[com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\f4bb5cb085f2ad7017d82b049fab3eb5\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:24:22-65
+16    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+16-->[com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\f4bb5cb085f2ad7017d82b049fab3eb5\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:25:5-79
+16-->[com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\f4bb5cb085f2ad7017d82b049fab3eb5\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:25:22-76
+17    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION" />
+17-->[com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\f4bb5cb085f2ad7017d82b049fab3eb5\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:26:5-88
+17-->[com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\f4bb5cb085f2ad7017d82b049fab3eb5\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:26:22-85
+18    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID" />
+18-->[com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\f4bb5cb085f2ad7017d82b049fab3eb5\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:27:5-82
+18-->[com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\f4bb5cb085f2ad7017d82b049fab3eb5\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:27:22-79
+19    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+19-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\a75439f10bbd900fb1c10dec472636e6\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:26:5-110
+19-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\a75439f10bbd900fb1c10dec472636e6\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:26:22-107
+20
+21    <permission
+21-->[androidx.core:core:1.13.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\5c11b85348d99255603504bc3c7b82d0\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+22        android:name="com.example.juegotap.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+22-->[androidx.core:core:1.13.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\5c11b85348d99255603504bc3c7b82d0\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+23        android:protectionLevel="signature" />
+23-->[androidx.core:core:1.13.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\5c11b85348d99255603504bc3c7b82d0\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+24
+25    <uses-permission android:name="com.example.juegotap.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+25-->[androidx.core:core:1.13.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\5c11b85348d99255603504bc3c7b82d0\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+25-->[androidx.core:core:1.13.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\5c11b85348d99255603504bc3c7b82d0\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+26
+27    <application
+27-->C:\Repositorio\ProgramacionMultimedia\JuegoTAP\app\src\main\AndroidManifest.xml:5:5-26:19
+28        android:allowBackup="true"
+28-->C:\Repositorio\ProgramacionMultimedia\JuegoTAP\app\src\main\AndroidManifest.xml:6:9-35
+29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+29-->[androidx.core:core:1.13.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\5c11b85348d99255603504bc3c7b82d0\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
+30        android:dataExtractionRules="@xml/data_extraction_rules"
+30-->C:\Repositorio\ProgramacionMultimedia\JuegoTAP\app\src\main\AndroidManifest.xml:7:9-65
+31        android:debuggable="true"
+32        android:extractNativeLibs="false"
+33        android:fullBackupContent="@xml/backup_rules"
+33-->C:\Repositorio\ProgramacionMultimedia\JuegoTAP\app\src\main\AndroidManifest.xml:8:9-54
+34        android:icon="@mipmap/ic_launcher"
+34-->C:\Repositorio\ProgramacionMultimedia\JuegoTAP\app\src\main\AndroidManifest.xml:9:9-43
+35        android:label="@string/app_name"
+35-->C:\Repositorio\ProgramacionMultimedia\JuegoTAP\app\src\main\AndroidManifest.xml:10:9-41
+36        android:roundIcon="@mipmap/ic_launcher_round"
+36-->C:\Repositorio\ProgramacionMultimedia\JuegoTAP\app\src\main\AndroidManifest.xml:11:9-54
+37        android:supportsRtl="true"
+37-->C:\Repositorio\ProgramacionMultimedia\JuegoTAP\app\src\main\AndroidManifest.xml:12:9-35
+38        android:testOnly="true"
+39        android:theme="@style/Theme.JuegoTAP" >
+39-->C:\Repositorio\ProgramacionMultimedia\JuegoTAP\app\src\main\AndroidManifest.xml:13:9-46
+40        <activity
+40-->C:\Repositorio\ProgramacionMultimedia\JuegoTAP\app\src\main\AndroidManifest.xml:14:9-16:40
+41            android:name="com.example.juegotap.SecondActivity"
+41-->C:\Repositorio\ProgramacionMultimedia\JuegoTAP\app\src\main\AndroidManifest.xml:15:13-43
+42            android:exported="false" />
+42-->C:\Repositorio\ProgramacionMultimedia\JuegoTAP\app\src\main\AndroidManifest.xml:16:13-37
+43        <activity
+43-->C:\Repositorio\ProgramacionMultimedia\JuegoTAP\app\src\main\AndroidManifest.xml:17:9-25:20
+44            android:name="com.example.juegotap.MainActivity"
+44-->C:\Repositorio\ProgramacionMultimedia\JuegoTAP\app\src\main\AndroidManifest.xml:18:13-41
+45            android:exported="true" >
+45-->C:\Repositorio\ProgramacionMultimedia\JuegoTAP\app\src\main\AndroidManifest.xml:19:13-36
+46            <intent-filter>
+46-->C:\Repositorio\ProgramacionMultimedia\JuegoTAP\app\src\main\AndroidManifest.xml:20:13-24:29
+47                <action android:name="android.intent.action.MAIN" />
+47-->C:\Repositorio\ProgramacionMultimedia\JuegoTAP\app\src\main\AndroidManifest.xml:21:17-69
+47-->C:\Repositorio\ProgramacionMultimedia\JuegoTAP\app\src\main\AndroidManifest.xml:21:25-66
+48
+49                <category android:name="android.intent.category.LAUNCHER" />
+49-->C:\Repositorio\ProgramacionMultimedia\JuegoTAP\app\src\main\AndroidManifest.xml:23:17-77
+49-->C:\Repositorio\ProgramacionMultimedia\JuegoTAP\app\src\main\AndroidManifest.xml:23:27-74
+50            </intent-filter>
+51        </activity>
+52
+53        <service
+53-->[com.google.firebase:firebase-database:22.0.1] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\dc3ce32e4d57e4fb469312e1f9efd378\transformed\firebase-database-22.0.1\AndroidManifest.xml:26:9-35:19
+54            android:name="com.google.firebase.components.ComponentDiscoveryService"
+54-->[com.google.firebase:firebase-database:22.0.1] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\dc3ce32e4d57e4fb469312e1f9efd378\transformed\firebase-database-22.0.1\AndroidManifest.xml:27:13-84
+55            android:directBootAware="true"
+55-->[com.google.firebase:firebase-common:22.0.1] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\41eddd3625533b13a55e5a29f4740586\transformed\firebase-common-22.0.1\AndroidManifest.xml:32:13-43
+56            android:exported="false" >
+56-->[com.google.firebase:firebase-database:22.0.1] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\dc3ce32e4d57e4fb469312e1f9efd378\transformed\firebase-database-22.0.1\AndroidManifest.xml:28:13-37
+57            <meta-data
+57-->[com.google.firebase:firebase-database:22.0.1] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\dc3ce32e4d57e4fb469312e1f9efd378\transformed\firebase-database-22.0.1\AndroidManifest.xml:29:13-31:85
+58                android:name="com.google.firebase.components:com.google.firebase.database.FirebaseDatabaseKtxRegistrar"
+58-->[com.google.firebase:firebase-database:22.0.1] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\dc3ce32e4d57e4fb469312e1f9efd378\transformed\firebase-database-22.0.1\AndroidManifest.xml:30:17-120
+59                android:value="com.google.firebase.components.ComponentRegistrar" />
+59-->[com.google.firebase:firebase-database:22.0.1] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\dc3ce32e4d57e4fb469312e1f9efd378\transformed\firebase-database-22.0.1\AndroidManifest.xml:31:17-82
+60            <meta-data
+60-->[com.google.firebase:firebase-database:22.0.1] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\dc3ce32e4d57e4fb469312e1f9efd378\transformed\firebase-database-22.0.1\AndroidManifest.xml:32:13-34:85
+61                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+61-->[com.google.firebase:firebase-database:22.0.1] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\dc3ce32e4d57e4fb469312e1f9efd378\transformed\firebase-database-22.0.1\AndroidManifest.xml:33:17-109
+62                android:value="com.google.firebase.components.ComponentRegistrar" />
+62-->[com.google.firebase:firebase-database:22.0.1] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\dc3ce32e4d57e4fb469312e1f9efd378\transformed\firebase-database-22.0.1\AndroidManifest.xml:34:17-82
+63            <meta-data
+63-->[com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\f4bb5cb085f2ad7017d82b049fab3eb5\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:33:13-35:85
+64                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+64-->[com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\f4bb5cb085f2ad7017d82b049fab3eb5\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:34:17-139
+65                android:value="com.google.firebase.components.ComponentRegistrar" />
+65-->[com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\f4bb5cb085f2ad7017d82b049fab3eb5\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:35:17-82
+66            <meta-data
+66-->[com.google.firebase:firebase-installations:19.0.1] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\c2b80c8c1f06e712a19bb14bcc86931d\transformed\firebase-installations-19.0.1\AndroidManifest.xml:15:13-17:85
+67                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+67-->[com.google.firebase:firebase-installations:19.0.1] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\c2b80c8c1f06e712a19bb14bcc86931d\transformed\firebase-installations-19.0.1\AndroidManifest.xml:16:17-130
+68                android:value="com.google.firebase.components.ComponentRegistrar" />
+68-->[com.google.firebase:firebase-installations:19.0.1] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\c2b80c8c1f06e712a19bb14bcc86931d\transformed\firebase-installations-19.0.1\AndroidManifest.xml:17:17-82
+69            <meta-data
+69-->[com.google.firebase:firebase-installations:19.0.1] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\c2b80c8c1f06e712a19bb14bcc86931d\transformed\firebase-installations-19.0.1\AndroidManifest.xml:18:13-20:85
+70                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+70-->[com.google.firebase:firebase-installations:19.0.1] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\c2b80c8c1f06e712a19bb14bcc86931d\transformed\firebase-installations-19.0.1\AndroidManifest.xml:19:17-127
+71                android:value="com.google.firebase.components.ComponentRegistrar" />
+71-->[com.google.firebase:firebase-installations:19.0.1] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\c2b80c8c1f06e712a19bb14bcc86931d\transformed\firebase-installations-19.0.1\AndroidManifest.xml:20:17-82
+72            <meta-data
+72-->[com.google.firebase:firebase-common:22.0.1] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\41eddd3625533b13a55e5a29f4740586\transformed\firebase-common-22.0.1\AndroidManifest.xml:35:13-37:85
+73                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+73-->[com.google.firebase:firebase-common:22.0.1] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\41eddd3625533b13a55e5a29f4740586\transformed\firebase-common-22.0.1\AndroidManifest.xml:36:17-109
+74                android:value="com.google.firebase.components.ComponentRegistrar" />
+74-->[com.google.firebase:firebase-common:22.0.1] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\41eddd3625533b13a55e5a29f4740586\transformed\firebase-common-22.0.1\AndroidManifest.xml:37:17-82
+75        </service>
+76
+77        <provider
+77-->[com.google.firebase:firebase-common:22.0.1] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\41eddd3625533b13a55e5a29f4740586\transformed\firebase-common-22.0.1\AndroidManifest.xml:23:9-28:39
+78            android:name="com.google.firebase.provider.FirebaseInitProvider"
+78-->[com.google.firebase:firebase-common:22.0.1] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\41eddd3625533b13a55e5a29f4740586\transformed\firebase-common-22.0.1\AndroidManifest.xml:24:13-77
+79            android:authorities="com.example.juegotap.firebaseinitprovider"
+79-->[com.google.firebase:firebase-common:22.0.1] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\41eddd3625533b13a55e5a29f4740586\transformed\firebase-common-22.0.1\AndroidManifest.xml:25:13-72
+80            android:directBootAware="true"
+80-->[com.google.firebase:firebase-common:22.0.1] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\41eddd3625533b13a55e5a29f4740586\transformed\firebase-common-22.0.1\AndroidManifest.xml:26:13-43
+81            android:exported="false"
+81-->[com.google.firebase:firebase-common:22.0.1] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\41eddd3625533b13a55e5a29f4740586\transformed\firebase-common-22.0.1\AndroidManifest.xml:27:13-37
+82            android:initOrder="100" />
+82-->[com.google.firebase:firebase-common:22.0.1] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\41eddd3625533b13a55e5a29f4740586\transformed\firebase-common-22.0.1\AndroidManifest.xml:28:13-36
+83
+84        <receiver
+84-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\a75439f10bbd900fb1c10dec472636e6\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:29:9-33:20
+85            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+85-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\a75439f10bbd900fb1c10dec472636e6\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:30:13-85
+86            android:enabled="true"
+86-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\a75439f10bbd900fb1c10dec472636e6\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:31:13-35
+87            android:exported="false" >
+87-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\a75439f10bbd900fb1c10dec472636e6\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:32:13-37
+88        </receiver>
+89
+90        <service
+90-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\a75439f10bbd900fb1c10dec472636e6\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:35:9-38:40
+91            android:name="com.google.android.gms.measurement.AppMeasurementService"
+91-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\a75439f10bbd900fb1c10dec472636e6\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:36:13-84
+92            android:enabled="true"
+92-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\a75439f10bbd900fb1c10dec472636e6\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:37:13-35
+93            android:exported="false" />
+93-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\a75439f10bbd900fb1c10dec472636e6\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:38:13-37
+94        <service
+94-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\a75439f10bbd900fb1c10dec472636e6\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:39:9-43:72
+95            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+95-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\a75439f10bbd900fb1c10dec472636e6\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:40:13-87
+96            android:enabled="true"
+96-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\a75439f10bbd900fb1c10dec472636e6\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:41:13-35
+97            android:exported="false"
+97-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\a75439f10bbd900fb1c10dec472636e6\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:42:13-37
+98            android:permission="android.permission.BIND_JOB_SERVICE" />
+98-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\a75439f10bbd900fb1c10dec472636e6\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:43:13-69
+99
+100        <uses-library
+100-->[androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\7d09ca682ddd2967f360532cb461ab70\transformed\ads-adservices-1.1.0-beta11\AndroidManifest.xml:23:9-25:40
+101            android:name="android.ext.adservices"
+101-->[androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\7d09ca682ddd2967f360532cb461ab70\transformed\ads-adservices-1.1.0-beta11\AndroidManifest.xml:24:13-50
+102            android:required="false" />
+102-->[androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\7d09ca682ddd2967f360532cb461ab70\transformed\ads-adservices-1.1.0-beta11\AndroidManifest.xml:25:13-37
+103
+104        <provider
+104-->[androidx.emoji2:emoji2:1.3.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\78a70250f388ab50d7ee17cba74155ae\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+105            android:name="androidx.startup.InitializationProvider"
+105-->[androidx.emoji2:emoji2:1.3.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\78a70250f388ab50d7ee17cba74155ae\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+106            android:authorities="com.example.juegotap.androidx-startup"
+106-->[androidx.emoji2:emoji2:1.3.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\78a70250f388ab50d7ee17cba74155ae\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+107            android:exported="false" >
+107-->[androidx.emoji2:emoji2:1.3.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\78a70250f388ab50d7ee17cba74155ae\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+108            <meta-data
+108-->[androidx.emoji2:emoji2:1.3.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\78a70250f388ab50d7ee17cba74155ae\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+109                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+109-->[androidx.emoji2:emoji2:1.3.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\78a70250f388ab50d7ee17cba74155ae\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+110                android:value="androidx.startup" />
+110-->[androidx.emoji2:emoji2:1.3.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\78a70250f388ab50d7ee17cba74155ae\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+111            <meta-data
+111-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\2338c07e4801739b50ef44a11a67f58d\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+112                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+112-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\2338c07e4801739b50ef44a11a67f58d\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+113                android:value="androidx.startup" />
+113-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\2338c07e4801739b50ef44a11a67f58d\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+114            <meta-data
+114-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\4b6bf50e2127306b989d8f3906ac757e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+115                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+115-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\4b6bf50e2127306b989d8f3906ac757e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+116                android:value="androidx.startup" />
+116-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\4b6bf50e2127306b989d8f3906ac757e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+117        </provider>
+118
+119        <activity
+119-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\880e1c0aaa720d0bcf740414e5fde370\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:9-173
+120            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+120-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\880e1c0aaa720d0bcf740414e5fde370\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:19-85
+121            android:exported="false"
+121-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\880e1c0aaa720d0bcf740414e5fde370\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:146-170
+122            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+122-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\880e1c0aaa720d0bcf740414e5fde370\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:86-145
+123
+124        <meta-data
+124-->[com.google.android.gms:play-services-basement:18.5.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\c1a2e1ac9e6629bad3285f48c89fad2d\transformed\play-services-basement-18.5.0\AndroidManifest.xml:21:9-23:69
+125            android:name="com.google.android.gms.version"
+125-->[com.google.android.gms:play-services-basement:18.5.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\c1a2e1ac9e6629bad3285f48c89fad2d\transformed\play-services-basement-18.5.0\AndroidManifest.xml:22:13-58
+126            android:value="@integer/google_play_services_version" />
+126-->[com.google.android.gms:play-services-basement:18.5.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\c1a2e1ac9e6629bad3285f48c89fad2d\transformed\play-services-basement-18.5.0\AndroidManifest.xml:23:13-66
+127
+128        <receiver
+128-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\4b6bf50e2127306b989d8f3906ac757e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+129            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+129-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\4b6bf50e2127306b989d8f3906ac757e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+130            android:directBootAware="false"
+130-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\4b6bf50e2127306b989d8f3906ac757e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+131            android:enabled="true"
+131-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\4b6bf50e2127306b989d8f3906ac757e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+132            android:exported="true"
+132-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\4b6bf50e2127306b989d8f3906ac757e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+133            android:permission="android.permission.DUMP" >
+133-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\4b6bf50e2127306b989d8f3906ac757e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+134            <intent-filter>
+134-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\4b6bf50e2127306b989d8f3906ac757e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+135                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+135-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\4b6bf50e2127306b989d8f3906ac757e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+135-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\4b6bf50e2127306b989d8f3906ac757e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+136            </intent-filter>
+137            <intent-filter>
+137-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\4b6bf50e2127306b989d8f3906ac757e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+138                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+138-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\4b6bf50e2127306b989d8f3906ac757e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+138-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\4b6bf50e2127306b989d8f3906ac757e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+139            </intent-filter>
+140            <intent-filter>
+140-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\4b6bf50e2127306b989d8f3906ac757e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+141                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+141-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\4b6bf50e2127306b989d8f3906ac757e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+141-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\4b6bf50e2127306b989d8f3906ac757e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+142            </intent-filter>
+143            <intent-filter>
+143-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\4b6bf50e2127306b989d8f3906ac757e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+144                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+144-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\4b6bf50e2127306b989d8f3906ac757e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+144-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\CAMPUSFP\.gradle\caches\8.13\transforms\4b6bf50e2127306b989d8f3906ac757e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
+145            </intent-filter>
+146        </receiver>
+147    </application>
+148
+149</manifest>
