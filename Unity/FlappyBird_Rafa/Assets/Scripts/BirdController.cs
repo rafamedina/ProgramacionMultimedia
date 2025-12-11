@@ -14,7 +14,6 @@ public class BirdController : MonoBehaviour
     public GameObject Scorearriba;
     private TMP_Text textoScore;
     private TMP_Text textoScore2;
-
     private bool pausePanelInterruptor = true;
     private bool isAlive = true;
     public AudioSource sFXAudioSource;

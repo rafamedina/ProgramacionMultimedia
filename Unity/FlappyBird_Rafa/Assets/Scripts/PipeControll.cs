@@ -10,7 +10,7 @@ public class PipeControll : MonoBehaviour
 
     public float xLimit;
 
-    int ultimoIncremento = 0;
+   // int ultimoIncremento = 0;
     void Start()
     {
 
